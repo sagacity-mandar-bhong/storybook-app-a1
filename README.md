@@ -32,10 +32,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```shell
 docker build -t angular-app .
 ```
-**Run the image **
+
+**Run the image**
 ```shell
 docker run -d -it -p 80:80/tcp --name angular-app angular-app:latest
 ```
+
 
 In browser to run the application 
 ```shell
@@ -45,4 +47,3 @@ To run the storybook app
 ```shell
 htpp://localhost/storybook/index.html
 ```
-
